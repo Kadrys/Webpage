@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Kadir Rysbek</h1>
+        <p>Computer Science Student</p>
+        <p>Group IT-2514</p>
+    </header>
+
+    <nav class="site-nav">
+        <a href="#about-me">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about-me" class="profile-card">
+            <h2>About Me</h2>
+            <h3>My Introduction</h3>
+            <img class="avatar-image" src="C:\Users\qadir\Downloads\Assignment_1_Kadir_Rysbek\My_First_Webpage\images\expo_img3.jpg" alt="Expo">
+            <p>
+                Hello! My name is Kadir. I am a Computer Science student.
+                I am interested in programming and technology.
+                I enjoy learning new things and improving my skills every day.
+            </p>
+            <button type="button">Click Me</button>
+        </section>
+
+        <section id="hobbies" class="content-card">
+            <h2>My Hobbies</h2>
+            <h3>Things I Enjoy</h3>
+            <ol>
+                <li>Programming</li>
+                <li>Playing computer games</li>
+                <li>Reading books</li>
+            </ol>
+
+            <h3>My Favorite Websites</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://www.kinopoisk.ru/" target="_blank" rel="noopener">Kinopoisk</a></li>
+            </ul>
+        </section>
+
+        <section id="schedule" class="content-card">
+            <h2>My Class Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Discrete Mathematics</td>
+                        <td>Monday</td>
+                        <td>14:00</td>
+                    </tr>
+                    <tr>
+                        <td>Introduction to Functional programming</td>
+                        <td>Monday</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <td>WEB Technologies</td>
+                        <td>Monday</td>
+                        <td>18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Organisation and Architecture</td>
+                        <td>Tuesday</td>
+                        <td>12:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="mood-card">
+            <h2>My Mood</h2>
+            <p>Today I feel happy 😊 because I am learning new things 💻 and making progress 🚀.</p>
+        </section>
+
+        <section id="contact" class="content-card">
+            <h2>Contact Form</h2>
+            <h3>Tell Me About Yourself</h3>
+            <form>
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="color">Favorite Color</label>
+                    <input type="color" id="color" name="color" value="#696969">
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kadir Rysbek. My First Webpage.</p>
+    </footer>
+</body>
+</html>
